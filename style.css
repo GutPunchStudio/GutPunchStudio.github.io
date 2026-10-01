@@ -62,5 +62,6 @@ a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
 footer { background: var(--bruise-deep); color: var(--muted); font-size: .9rem; }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-block: 20px; }
 footer a { color: var(--muted); }
+.foot-links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 
 @media (prefers-reduced-motion: reduce) { .btn:hover { transform: none; } }
